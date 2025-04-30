@@ -235,7 +235,7 @@ def get_beacon_config(
         "--disable-packet-filter",
         "--execution-endpoints=" + EXECUTION_ENGINE_ENDPOINT,
         "--jwt-secrets=" + constants.JWT_MOUNT_PATH_ON_CONTAINER,
-        "--suggested-fee-recipient=" + constants.VALIDATING_REWARDS_ACCOUNT,
+        # "--suggested-fee-recipient=" + constants.VALIDATING_REWARDS_ACCOUNT,
         # vvvvvvvvvvvvvvvvvvv METRICS CONFIG vvvvvvvvvvvvvvvvvvvvv
         "--metrics",
         "--metrics-address=0.0.0.0",
