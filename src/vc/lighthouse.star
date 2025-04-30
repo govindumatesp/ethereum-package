@@ -40,7 +40,6 @@ def get_config(
         constants.VALIDATOR_KEYS_DIRPATH_ON_SERVICE_CONTAINER,
         node_keystore_files.raw_keys_relative_dirpath,
     )
-    plan.print("validator_keys_dirpath: ",validator_keys_dirpath)
     validator_secrets_dirpath = shared_utils.path_join(
         constants.VALIDATOR_KEYS_DIRPATH_ON_SERVICE_CONTAINER,
         node_keystore_files.raw_secrets_relative_dirpath,
