@@ -40,6 +40,7 @@ def get_config(
         constants.VALIDATOR_KEYS_DIRPATH_ON_SERVICE_CONTAINER,
         node_keystore_files.raw_keys_relative_dirpath,
     )
+    plan.print("validator_keys_dirpath: ",validator_keys_dirpath)
     validator_secrets_dirpath = shared_utils.path_join(
         constants.VALIDATOR_KEYS_DIRPATH_ON_SERVICE_CONTAINER,
         node_keystore_files.raw_secrets_relative_dirpath,
@@ -58,7 +59,7 @@ def get_config(
         "--beacon-nodes=" + beacon_http_url,
         # "--enable-doppelganger-protection", // Disabled to not have to wait 2 epochs before validator can start
         # burn address - If unset, the validator will scream in its logs
-        "--suggested-fee-recipient=" + constants.VALIDATING_REWARDS_ACCOUNT,
+        # "--suggested-fee-recipient=" + constants.VALIDATING_REWARDS_ACCOUNT,
         # vvvvvvvvvvvvvvvvvvv PROMETHEUS CONFIG vvvvvvvvvvvvvvvvvvvvv
         "--metrics",
         "--metrics-address=0.0.0.0",
