@@ -61,7 +61,7 @@ RBUILDER_METRICS_PORT_ID = "rbuilder-metric"
 LITTLE_BIGTABLE_PORT_ID = "littlebigtable"
 VALDIATOR_GRPC_PORT_ID = "grpc"
 
-VALIDATING_REWARDS_ACCOUNT = "0xe7aa751e571580EEC69F885B552fffadC5a0050d"
+VALIDATING_REWARDS_ACCOUNT = "0x8943545177806ED17B9F23F0a21ee5948eCaa776"
 MAX_ENR_ENTRIES = 20
 MAX_ENODE_ENTRIES = 20
 
@@ -93,7 +93,7 @@ DEFAULT_SPAMOOR_IMAGE = "ethpandaops/spamoor:latest"
 DEFAULT_ASSERTOOR_IMAGE = "ethpandaops/assertoor:latest"
 DEFAULT_SNOOPER_IMAGE = "ethpandaops/rpc-snooper:latest"
 DEFAULT_ETHEREUM_GENESIS_GENERATOR_IMAGE = (
-    "ethpandaops/ethereum-genesis-generator:4.0.3"
+    "ethpandaops/ethereum-genesis-generator:4.0.4"
 )
 DEFAULT_YQ_IMAGE = "linuxserver/yq"
 DEFAULT_FLASHBOTS_RELAY_IMAGE = "ethpandaops/mev-boost-relay:main"
