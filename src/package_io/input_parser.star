@@ -67,7 +67,7 @@ MEV_BOOST_PORT = 18550
 MEV_BOOST_SERVICE_NAME_PREFIX = "mev-boost"
 
 # Minimum number of validators required for a network to be valid is 64
-MIN_VALIDATORS = 64
+MIN_VALIDATORS = 1
 
 DEFAULT_ADDITIONAL_SERVICES = []
 
