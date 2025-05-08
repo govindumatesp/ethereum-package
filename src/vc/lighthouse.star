@@ -58,7 +58,7 @@ def get_config(
         "--beacon-nodes=" + beacon_http_url,
         # "--enable-doppelganger-protection", // Disabled to not have to wait 2 epochs before validator can start
         # burn address - If unset, the validator will scream in its logs
-        "--suggested-fee-recipient=" + constants.VALIDATING_REWARDS_ACCOUNT,
+        # "--suggested-fee-recipient=" + constants.VALIDATING_REWARDS_ACCOUNT,
         # vvvvvvvvvvvvvvvvvvv PROMETHEUS CONFIG vvvvvvvvvvvvvvvvvvvvv
         "--metrics",
         "--metrics-address=0.0.0.0",
